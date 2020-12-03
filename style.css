@@ -1,0 +1,23 @@
+
+ /* Skriv din CSS-kod här för att styla din hero image! */ 
+
+ body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Bakgrundsbild. Byt ut bilden och ändra gradienten till så du vill
+  ha den. Lägg också till en storlek på bakgrundsbilden.  */   
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./assets/orange.jpg");
+    height: 500px;
+  }
+  
+  /* Innehåll ovanpå bakgrundsbilden. Lägg till absolut positionering
+  för att kunna välja exakt var texten ska vara. För att absolut 
+  positionering ska fungera behöver du lägga till relativ positionering
+  på "förälder-elementet" dvs på klassen .hero-image.*/
+  .hero-text {
+    color: white;
+  }
+  
